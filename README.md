@@ -9,4 +9,5 @@ VGGFace and ResNet are two popular convolutional neural network (CNN) architectu
 Steps to execute the code:-
 -----------------------------
 Command to install python libraries **"pip install -r requirements.txt"**
+
 Command to execute project **"python3 ui.py"**
