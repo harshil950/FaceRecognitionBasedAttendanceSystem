@@ -1,5 +1,5 @@
-# FaceRecognitionBasedAttendanceSystem
-=======================================
+FaceRecognitionBasedAttendanceSystem
+-----------------------------------------
 The face recognition-based attendance system is a biometric technology that uses facial features to verify and authenticate the identity of an individual. This technology has gained immense popularity due to its ability to accurately identify individuals, even in large groups, with high speed and convenience. In this project, we aim to develop a face recognition-based attendance system that will automate the attendance management process in educational institutions and workplaces.
 
 MTCNN (Multi-task Cascaded Convolutional Neural Networks) and YOLO (You Only Look Once) are two popular face detection algorithms.MTCNN is a three-stage cascaded approach that first detects candidate regions, then refines them, and finally classifies them as faces or non-faces. YOLO is a single-stage approach that directly predicts bounding boxes and confidence scores for faces in an image. MTCNN is a more accurate face detection algorithm than YOLO, but it is also slower. YOLO is a faster face detection algorithm than MTCNN, but it is less accurate. So, for training, we are using YOLO as it contains only one image for recognition, and for the actual attendance marking mechanism we are using MTCNN to detect multiple faces.
